@@ -229,8 +229,8 @@ public:
         pchMessageStart[3] = 0xb9;
         nDefaultPort = 55089;
         nPruneAfterHeight = 1000;
-        int nNonce = 96821;
-        int secs = 1523123572;
+        int nNonce = 154247;
+        int secs = 1523179491;
         /*for (; nNonce < (int)1e9; ++nNonce) {       
             genesis = CreateGenesisBlock(secs, nNonce, 0x1e0ffff0, 1, 50 * COIN);
             consensus.hashGenesisBlock = genesis.GetHash();
